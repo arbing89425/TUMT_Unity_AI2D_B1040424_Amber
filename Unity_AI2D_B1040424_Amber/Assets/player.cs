@@ -38,12 +38,12 @@ public class player : MonoBehaviour {
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             this.transform.Translate(Speed * 1, 0, 0, Space.Self);
                 
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             
             this.transform.Translate(-Speed * 1, 0, 0, Space.Self);
@@ -54,7 +54,7 @@ public class player : MonoBehaviour {
         }
     public void Jump ()
     {
-        if (Input.GetKey(KeyCode.Space) && isGround == true)
+        if (Input.GetKey(KeyCode.Space)  && isGround == true )
         {
             isGround = false;
             rgbdy.AddForce(new Vector2(0 , JumpForce * Input.GetAxis("Jump")));
