@@ -685,7 +685,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4079711170594906, guid: 6b344268c83eb3944bd072b149a37eee, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 44.4
+      value: 42.46
       objectReference: {fileID: 0}
     - target: {fileID: 4079711170594906, guid: 6b344268c83eb3944bd072b149a37eee, type: 2}
       propertyPath: m_LocalPosition.y
@@ -717,7 +717,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1720115756422856, guid: 6b344268c83eb3944bd072b149a37eee, type: 2}
       propertyPath: m_Name
-      value: NPC (1)
+      value: "\u53F3NPC"
       objectReference: {fileID: 0}
     - target: {fileID: 1852889749446560, guid: 6b344268c83eb3944bd072b149a37eee, type: 2}
       propertyPath: m_IsActive
@@ -1506,6 +1506,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114326481611816910, guid: 6b344268c83eb3944bd072b149a37eee,
+        type: 2}
+      propertyPath: sayComplete
+      value: "\u662F\u6211\u7684\u91D1\u5E63!!\u8B1D\u8B1D\u4F60!\u9032\u5165\u65C1\u908A\u7684\u5BF6\u7BB1\u5C31\u53EF\u4EE5\u904E\u95DC\u56C9!"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b344268c83eb3944bd072b149a37eee, type: 2}
   m_IsPrefabAsset: 0
@@ -1660,7 +1665,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1355573837}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.7, y: 2.2, z: 0}
+  m_LocalPosition: {x: 45.6, y: 2.2, z: 0}
   m_LocalScale: {x: 0.25866, y: 0.25866, z: 0.25866}
   m_Children: []
   m_Father: {fileID: 0}
